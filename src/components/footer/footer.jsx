@@ -17,9 +17,9 @@ const Footer = () => {
         <Link className="item" to="/person">
           <p>Manages</p>
         </Link>
-        {/* <Link className="item">
+        <Link className="item" to="/account">
           <p>Account</p>
-        </Link> */}
+        </Link>
       </div>
     </div>
   );
