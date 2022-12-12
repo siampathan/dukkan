@@ -1,0 +1,20 @@
+.div__ {
+  margin-top: 10px;
+}
+
+.persondesc {
+  display: flex;
+  align-items: center;
+}
+.short {
+  margin-right: 20px;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 5px;
+}
+.personrec {
+  text-align: left;
+}
+.order {
+  margin-top: -20px;
+}
