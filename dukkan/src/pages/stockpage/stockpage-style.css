@@ -1,0 +1,43 @@
+.stock__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stock__left {
+  display: flex;
+  align-items: center;
+}
+
+.stock__left > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.stock__content {
+  text-align: left;
+}
+
+.title {
+  margin-top: -5px;
+}
+
+.term {
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.avail {
+  color: green;
+}
+
+.bi-share {
+  margin-right: 10px;
+}
