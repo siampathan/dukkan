@@ -1,0 +1,40 @@
+.cover {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.header {
+  background-color: rgb(1, 112, 186);
+  height: 100px;
+}
+.title {
+  font-size: 18px;
+  color: #fff;
+  margin-top: -10px;
+  padding-top: 10px;
+}
+.input {
+  width: 90%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: -5px;
+}
+
+.persondesc {
+  display: flex;
+  align-items: center;
+}
+.short {
+  margin-right: 20px;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 5px;
+}
+.personrec {
+  text-align: left;
+}
+.order {
+  margin-top: -20px;
+}
