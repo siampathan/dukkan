@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .is-invalid {
+        border-color: #ff0000;
+        background-color: #eeaaaa;
+      }
+
+      .invalid-feedback {
+        color: #ff0000;
+      }
+
+      input {
+        background: white;
+        border: 1px #0d0d0d solid;
+      }
+
+      #slider ul {
+        list-style-type: none;
+      }
+
+      #slider {
+        display: block;
+        width: 100%;
+        height: 600px;
+        padding: 0;
+        margin: 0 0 10px;
+        overflow: hidden;
+      }
+    </style>
+
+    <script
+      src="bdeducationdetails_files/jquery-3.7.1.slim.js"
+      integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="bdeducationdetails_files/jquery.validate.min.js"></script>
+    <script src="bdeducationdetails_files/tom-select.complete.min.js"></script>
+    <link href="bdeducationdetails_files/tom-select.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="bdeducationdetails_files/yearpicker.css" />
+    <script src="bdeducationdetails_files/yearpicker.js" async=""></script>
+  </head>
+
+  <body>
+    <div
+      style="
+        background-color: slategrey;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 120px;
+      "
+    >
+      <div
+        id="Registration"
+        class="Registration"
+        style="
+          height: 1600px;
+          background: white;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          display: inline-flex;
+          align-self: center;
+        "
+      >
+        <div
+          class="Navbar8"
+          style="
+            height: 98px;
+            background: white;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-self: stretch;
+            display: flex;
+          "
+        >
+          <div
+            class="Content"
+            style="
+              align-self: stretch;
+              padding-left: 64px;
+              padding-right: 64px;
+              padding-top: 24px;
+              padding-bottom: 24px;
+              justify-content: space-between;
+              align-items: center;
+              display: inline-flex;
+            "
+          >
+            <div
+              class="Logo"
+              style="
+                width: 139.76px;
+                height: 70px;
+                position: relative;
+                background-image: url(https://admin.edumatric.com/uploads/companyimage/8VoXjC8bcT4soNjPDt1p1PBpsQB7F8GwnJW3Ywe7.png);
+                background-size: cover;
+              "
+            ></div>
+
+            <div
+              class="Actions"
+              style="
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+                display: flex;
+                margin-left: auto;
+              "
+            >
+              <div
+                class="StylePrimarySmallTrueDarkModeFalseIconPositionNoIcon"
+                style="
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  padding-top: 8px;
+                  padding-bottom: 8px;
+                  background: white;
+                  border-radius: 5px;
+                  border: 2px #25356f solid;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 8px;
+                  display: flex;
+                "
+              >
+                <a href="https://www.edumatric.com/">
+                  <div
+                    class="Button"
+                    style="
+                      color: #25356f;
+                      font-size: 16px;
+                      font-family: sans-serif;
+                      font-weight: 500;
+                      line-height: 24px;
+                      word-wrap: break-word;
+                    "
+                  >
+                    Back to main site
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Navbar8-->
+
+        <main>
+          <!--
+<div class="Section" style="width: 1440px; justify-content: space-between; align-items: center; display: inline-flex;background-color: #E6E9F4;">
+    <div class="Frame26" style="width: 1440px; height: 800px; padding: 0px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+
+        <div class="Content" style="width: 1047px; height: 600px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 48px; display: inline-flex"> -->
+          <div
+            class="Section"
+            style="
+              background: #ffc049;
+              justify-content: center;
+              align-items: center;
+              display: inline-flex;
+              background-color: #e6e9f4;
+              flex-wrap: wrap;
+            "
+          >
+            <div
+              class="filler"
+              style="width: 300px; flex-direction: column; display: inline-flex"
+            ></div>
+            <!-- <div class="Frame26" style="width: 1440px; height: 510px; padding: 100px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">-->
+            <div
+              class="Frame26"
+              style="
+                height: 800px;
+                padding: 100px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                display: inline-flex;
+              "
+            >
+              <div
+                class="Content"
+                style="
+                  width: 500px;
+                  height: 600px;
+                  flex-direction: column;
+                  justify-content: flex-start;
+                  align-items: center;
+                  gap: 48px;
+                  display: inline-flex;
+                "
+              >
+                <div
+                  class="Heading"
+                  style="
+                    width: 400px;
+                    text-align: center;
+                    color: #0d0d0d;
+                    font-size: 24px;
+                    font-family: sans-serif;
+                    font-weight: 400;
+                    line-height: 28.8px;
+                    word-wrap: break-word;
+                  "
+                >
+                  Education Background
+                </div>
+                <div
+                  class="Frame51"
+                  style="
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 48px;
+                    display: flex;
+                  "
+                >
+                  <div
+                    class="Form"
+                    style="
+                      height: 160px;
+                      flex-direction: column;
+                      justify-content: center;
+                      align-items: center;
+                      gap: 36px;
+                      display: flex;
+                    "
+                  >
+                    <form
+                      name="interests_post_form"
+                      id="usertype_post_form"
+                      method="post"
+                      action="https://register.globaledexpobd.com/registration/bdeducationdetails"
+                    >
+                      <input
+                        type="hidden"
+                        name="_token"
+                        value="99TfzhtWQBGvugrM5zelNNRd9ciR7pZEyDlaFy9z"
+                        autocomplete="off"
+                      />
+                      <div
+                        class="Input"
+                        style="
+                          align-self: stretch;
+                          width: 400px;
+                          height: 160px;
+                          flex-direction: column;
+                          justify-content: flex-start;
+                          align-items: flex-start;
+                          gap: 20px;
+                          display: flex;
+                        "
+                      >
+                        <div
+                          class="Frame2"
+                          style="
+                            align-self: stretch;
+                            height: 24px;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            gap: 4px;
+                            display: flex;
+                          "
+                        >
+                          <div
+                            class="PleaseInputYourExamScores"
+                            style="
+                              align-self: stretch;
+                              color: #0d0d0d;
+                              font-size: 16px;
+                              font-family: sans-serif;
+                              font-weight: 500;
+                              line-height: 24px;
+                              word-wrap: break-word;
+                            "
+                          >
+                            Please input your exam scores
+                          </div>
+                        </div>
+                        <div
+                          class="Frame2"
+                          style="
+                            align-self: stretch;
+                            height: 48px;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            gap: 14px;
+                            display: flex;
+                          "
+                        >
+                          <div
+                            class="Frame2"
+                            style="
+                              align-self: stretch;
+                              justify-content: flex-start;
+                              align-items: center;
+                              gap: 10px;
+                              display: inline-flex;
+                            "
+                          >
+                            <div
+                              class="Radio"
+                              style="
+                                width: 200px;
+                                align-self: stretch;
+                                padding-top: 12px;
+                                padding-bottom: 12px;
+                                justify-content: flex-start;
+                                align-items: center;
+                                gap: 12px;
+                                display: flex;
+                              "
+                            >
+                              <div
+                                class="Label"
+                                style="
+                                  color: #0d0d0d;
+                                  font-size: 16px;
+                                  font-family: sans-serif;
+                                  font-weight: 500;
+                                  line-height: 24px;
+                                  word-wrap: break-word;
+                                "
+                              >
+                                SSC/Dakhil
+                              </div>
+                            </div>
+                            <div
+                              class="Frame85"
+                              style="
+                                flex: 1 1 0;
+                                align-self: stretch;
+                                justify-content: flex-start;
+                                align-items: center;
+                                gap: 10px;
+                                display: flex;
+                              "
+                            >
+                              <input
+                                type="text"
+                                placeholder="Your score"
+                                name="ssc_score"
+                                class="Select"
+                                style="
+                                  flex: 1 1 0;
+                                  align-self: stretch;
+                                  padding: 12px;
+                                  background: white;
+                                  border-radius: 5px;
+                                  border: 1px #0d0d0d solid;
+                                  justify-content: flex-start;
+                                  align-items: center;
+                                  gap: 12px;
+                                  display: flex;
+                                "
+                              />
+                              <select
+                                placeholder="Year"
+                                name="ssc_year"
+                                class="Select"
+                                style="
+                                  flex: 1 1 0;
+                                  align-self: stretch;
+                                  padding: 12px;
+                                  background: white;
+                                  border-radius: 5px;
+                                  border: 1px #0d0d0d solid;
+                                  justify-content: flex-start;
+                                  align-items: center;
+                                  gap: 12px;
+                                  display: flex;
+                                "
+                              >
+                                <option selected="selected">Year</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                                <option value="2003">2003</option>
+                                <option value="2004">2004</option>
+                                <option value="2005">2005</option>
+                                <option value="2006">2006</option>
+                                <option value="2007">2007</option>
+                                <option value="2008">2008</option>
+                                <option value="2009">2009</option>
+                                <option value="2010">2010</option>
+                                <option value="2011">2011</option>
+                                <option value="2012">2012</option>
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div
+                    class="Frame4"
+                    style="
+                      align-self: stretch;
+                      height: 51px;
+                      flex-direction: column;
+                      justify-content: flex-start;
+                      align-items: center;
+                      gap: 14px;
+                      display: flex;
+                    "
+                  >
+                    <div
+                      class="Buttons"
+                      style="
+                        align-self: stretch;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        gap: 16px;
+                        display: inline-flex;
+                      "
+                    >
+                      <button
+                        class="Button"
+                        style="
+                          flex: 1 1 0;
+                          height: 51px;
+                          padding-left: 24px;
+                          padding-right: 24px;
+                          padding-top: 12px;
+                          padding-bottom: 12px;
+                          background: #e6e9f4;
+                          border-radius: 5px;
+                          border: 1.5px #25356f solid;
+                          justify-content: center;
+                          align-items: center;
+                          gap: 8px;
+                          display: flex;
+                        "
+                      >
+                        <div
+                          class="Button"
+                          style="
+                            color: #25356f;
+                            font-size: 18px;
+                            font-family: sans-serif;
+                            font-weight: 500;
+                            line-height: 27px;
+                            word-wrap: break-word;
+                          "
+                        >
+                          Skip
+                        </div>
+                      </button>
+                      <button
+                        class="Button"
+                        style="
+                          flex: 1 1 0;
+                          height: 51px;
+                          padding-left: 24px;
+                          padding-right: 24px;
+                          padding-top: 12px;
+                          padding-bottom: 12px;
+                          background: #25356f;
+                          border-radius: 5px;
+                          border: 1px #25356f solid;
+                          justify-content: center;
+                          align-items: center;
+                          gap: 8px;
+                          display: flex;
+                        "
+                      >
+                        <div
+                          class="Button"
+                          style="
+                            color: white;
+                            font-size: 18px;
+                            font-family: sans-serif;
+                            font-weight: 500;
+                            line-height: 27px;
+                            word-wrap: break-word;
+                          "
+                        >
+                          Complete Registration
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--
+        <div class="Frame4" style="align-self: stretch; height: 51px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 14px; display: inline-flex">
+            <div class="Buttons" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                <button class="Button" style="flex: 1 1 0; height: 51px; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #E6E9F4; border-radius: 5px; border: 1.50px #25356F solid; justify-content: center; align-items: center; gap: 8px; display: flex">
+                    <div class="Button" style="color: #25356F; font-size: 18px; font-family: sans-serif; font-weight: 500; line-height: 27px; word-wrap: break-word">Back</div>
+                </button>
+                <button class="Button" style="flex: 1 1 0; height: 51px; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #25356F; border-radius: 5px; border: 1px #25356F solid; justify-content: center; align-items: center; gap: 8px; display: flex">
+                    <div class="Button" style="color: white; font-size: 18px; font-family: sans-serif; font-weight: 500; line-height: 27px; word-wrap: break-word">Next</div>
+                </button>
+            </div>
+            </form>
+        </div>
+-->
+            </div>
+            <div
+              class="filler"
+              style="width: 300px; flex-direction: column; display: inline-flex"
+            ></div>
+          </div>
+
+          <script>
+            $(".yearpicker").yearpicker();
+            /*    
+    $('.yearpicker').yearpicker({
+
+        // Initial Year
+        year: null,
+
+        // Start Year
+        startYear: null,
+
+        // End Year
+        endYear: null,
+
+        // Element tag
+        itemTag: 'li',
+
+        // Default CSS classes
+        selectedClass: 'selected',
+        disabledClass: 'disabled',
+        hideClass: 'hide',
+
+        // Custom template
+        template: `<div class="yearpicker-container">
+            <div class="yearpicker-header">
+                <div class="yearpicker-prev" data-view="yearpicker-prev">&lsaquo;</div>
+                <div class="yearpicker-current" data-view="yearpicker-current">SelectedYear</div>
+                <div class="yearpicker-next" data-view="yearpicker-next">&rsaquo;</div>
+            </div>
+            <div class="yearpicker-body">
+                <ul class="yearpicker-year" data-view="years">
+                </ul>
+            </div>
+        </div>
+`,
+
+    });
+*/
+
+            /*
+        $('.yearpicker').yearpicker({
+
+            onShow: null,
+            onHide: null,
+            onChange: function(value) {}
+
+        });
+    */
+          </script>
+        </main>
+
+        <div
+          class="GlobaledexpoFooter"
+          style="
+            height: 665px;
+            padding: 50px;
+            background: linear-gradient(
+              90deg,
+              #f4bb36 -105.92%,
+              #ca529d 7.87%,
+              #40469b 92.48%,
+              #008d97 185.85%
+            );
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 80px;
+            display: flex;
+            align-self: stretch;
+          "
+        >
+          <div
+            class="Frame41"
+            style="
+              align-self: stretch;
+              height: 565px;
+              padding: 50px;
+              background: #fdfcfc;
+              border-radius: 20px;
+              border: 3px #151515 solid;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 80px;
+              display: flex;
+            "
+          >
+            <div
+              class="Content"
+              style="
+                align-self: stretch;
+                gap: 64px;
+                display: inline-flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: stretch;
+                align-content: space-between;
+                justify-content: space-between;
+              "
+            >
+              <div
+                class="Column"
+                style="
+                  flex-direction: column;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  gap: 32px;
+                  display: inline-flex;
+                "
+              >
+                <div
+                  class="Frame"
+                  style="
+                    width: 207.83px;
+                    height: 100px;
+                    position: relative;
+                    background-image: url(https://admin.edumatric.com/uploads/companyimage/8VoXjC8bcT4soNjPDt1p1PBpsQB7F8GwnJW3Ywe7.png);
+                    background-size: cover;
+                  "
+                ></div>
+
+                <div
+                  class="Content"
+                  style="
+                    align-self: stretch;
+                    height: 224px;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    gap: 24px;
+                    display: flex;
+                  "
+                >
+                  <div
+                    class="Content"
+                    style="
+                      flex-direction: column;
+                      justify-content: flex-start;
+                      align-items: flex-start;
+                      gap: 4px;
+                      display: flex;
+                    "
+                  >
+                    <div
+                      class="CorporateAddress"
+                      style="
+                        align-self: stretch;
+                        color: #151515;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        font-weight: 600;
+                        line-height: 24px;
+                        word-wrap: break-word;
+                      "
+                    >
+                      Corporate Address
+                    </div>
+                    <div
+                      class="Suite304ConcordTower113KaziNazrulIslamAvenueDhakaBangladesh"
+                      style="
+                        width: 348px;
+                        color: #151515;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        font-weight: 400;
+                        text-decoration: underline;
+                        line-height: 24px;
+                        word-wrap: break-word;
+                      "
+                    >
+                      6 Gulshan Avenue, Gulshan-1, Dhaka-1212, Bangladesh.
+                    </div>
+                  </div>
+                  <div
+                    class="Content"
+                    style="
+                      align-self: stretch;
+                      height: 76px;
+                      flex-direction: column;
+                      justify-content: flex-start;
+                      align-items: flex-start;
+                      gap: 4px;
+                      display: flex;
+                    "
+                  >
+                    <div
+                      class="Contact"
+                      style="
+                        align-self: stretch;
+                        color: #151515;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        font-weight: 600;
+                        line-height: 24px;
+                        word-wrap: break-word;
+                      "
+                    >
+                      Contact:
+                    </div>
+                    <div
+                      class="Container"
+                      style="
+                        align-self: stretch;
+                        height: 48px;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        display: flex;
+                      "
+                    >
+                      <div
+                        class="8801709990909"
+                        style="
+                          align-self: stretch;
+                          color: #151515;
+                          font-size: 16px;
+                          font-family: sans-serif;
+                          font-weight: 400;
+                          text-decoration: underline;
+                          line-height: 24px;
+                          word-wrap: break-word;
+                        "
+                      >
+                        +8801709990909
+                      </div>
+                      <div
+                        class="HelloGlobaledexpobdCom"
+                        style="
+                          align-self: stretch;
+                          color: #151515;
+                          font-size: 16px;
+                          font-family: sans-serif;
+                          font-weight: 400;
+                          text-decoration: underline;
+                          line-height: 24px;
+                          word-wrap: break-word;
+                        "
+                      >
+                        info@edumatric.com
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="SocialLinks"
+                    style="
+                      justify-content: flex-start;
+                      align-items: flex-start;
+                      gap: 12px;
+                      display: inline-flex;
+                    "
+                  >
+                    <a href="https://www.facebook.com/edumatricofficial">
+                      <div
+                        class="IconFacebook"
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          position: relative;
+                          background-image: url(https://register.globaledexpobd.com/images/fblogo.png);
+                          background-size: cover;
+                        "
+                      >
+                        <div
+                          class="Vector"
+                          style="
+                            width: 10px;
+                            height: 18px;
+                            left: 7px;
+                            top: 3px;
+                            position: absolute;
+                          "
+                        ></div>
+                      </div>
+                    </a>
+                    <a href="https://www.instagram.com/edumatric/">
+                      <div
+                        class="IconInstagram"
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          position: relative;
+                          background-image: url(https://register.globaledexpobd.com/images/instagramlogo.png);
+                          background-size: cover;
+                        "
+                      >
+                        <div
+                          class="Vector"
+                          style="
+                            width: 18px;
+                            height: 18px;
+                            left: 3px;
+                            top: 3px;
+                            position: absolute;
+                          "
+                        ></div>
+                      </div>
+                    </a>
+                    <a href="https://twitter.com/edumatricbd">
+                      <div
+                        class="IconLinkedin"
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          position: relative;
+                          background-image: url(https://register.globaledexpobd.com/images/linkedinlogo.png);
+                          background-size: cover;
+                        "
+                      >
+                        <div
+                          class="Vector"
+                          style="
+                            width: 18px;
+                            height: 18px;
+                            left: 3px;
+                            top: 3px;
+                            position: absolute;
+                          "
+                        ></div>
+                      </div>
+                    </a>
+
+                    <a href="https://www.youtube.com/@edumatric">
+                      <div
+                        class="IconYoutube"
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          position: relative;
+                          background-image: url(https://register.globaledexpobd.com/images/youtubelogo.png);
+                          background-size: cover;
+                        "
+                      >
+                        <div
+                          class="Vector"
+                          style="
+                            width: 20.01px;
+                            height: 14.01px;
+                            left: 1.99px;
+                            top: 5px;
+                            position: absolute;
+                          "
+                        ></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="Column"
+                style="
+                  flex: 0 1 1;
+                  height: 144px;
+                  justify-content: flex-start;
+                  align-items: center;
+                  gap: 24px;
+                  display: flex;
+                "
+              >
+                <div
+                  class="LinkList"
+                  style="
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 12px;
+                    display: inline-flex;
+                    margin-top: 100px;
+                  "
+                >
+                  <div
+                    class="Home"
+                    style="
+                      color: #151515;
+                      font-size: 18px;
+                      font-family: sans-serif;
+                      font-weight: 500;
+                      line-height: 27px;
+                      word-wrap: break-word;
+                    "
+                  >
+                    <a href="https://www.edumatric.com/"
+                      ><span class="elementor-icon-list-text"
+                        >Edumatric Home</span
+                      ></a
+                    >
+                  </div>
+                  <div
+                    class="ExhibitorShowcase"
+                    style="
+                      color: #151515;
+                      font-size: 18px;
+                      font-family: sans-serif;
+                      font-weight: 500;
+                      line-height: 27px;
+                      word-wrap: break-word;
+                    "
+                  >
+                    <a
+                      href="https://globaledexpobd.com/university-and-exhibitors/"
+                    >
+                      <span class="elementor-icon-list-text"
+                        >Exhibitors and Universities</span
+                      ></a
+                    >
+                  </div>
+                  <div
+                    class="SponsorshipOpportunities"
+                    style="
+                      color: #151515;
+                      font-size: 18px;
+                      font-family: sans-serif;
+                      font-weight: 500;
+                      line-height: 27px;
+                      word-wrap: break-word;
+                    "
+                  >
+                    <a href="https://globaledexpobd.com/sponsors-and-partners/">
+                      <span class="elementor-icon-list-text"
+                        >Sponsors and Partners</span
+                      ></a
+                    >
+                  </div>
+                  <div
+                    class="Seminar"
+                    style="
+                      color: #151515;
+                      font-size: 18px;
+                      font-family: sans-serif;
+                      font-weight: 500;
+                      line-height: 27px;
+                      word-wrap: break-word;
+                    "
+                  >
+                    <a href="https://globaledexpobd.com/seminars/">
+                      <span class="elementor-icon-list-text">Seminars</span></a
+                    >
+                  </div>
+                  <div
+                    class="About EdExpo"
+                    style="
+                      color: #151515;
+                      font-size: 18px;
+                      font-family: sans-serif;
+                      font-weight: 500;
+                      line-height: 27px;
+                      word-wrap: break-word;
+                    "
+                  >
+                    <a href="https://www.edumatric.com/about">
+                      <span class="elementor-icon-list-text"
+                        >About Edumatric</span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Credits"
+              style="
+                align-self: stretch;
+                height: 54px;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 32px;
+                display: flex;
+              "
+            >
+              <div
+                class="Divider"
+                style="align-self: stretch; height: 1px; background: #151515"
+              ></div>
+              <div
+                class="Row"
+                style="
+                  align-self: stretch;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  display: inline-flex;
+                "
+              >
+                <div
+                  class="2023RelumeAllRightsReserved"
+                  style="
+                    color: #151515;
+                    font-size: 14px;
+                    font-family: Roboto;
+                    font-weight: 400;
+                    line-height: 21px;
+                    word-wrap: break-word;
+                  "
+                >
+                  © 2023 Softin. All rights reserved.
+                </div>
+                <div
+                  class="FooterLinks"
+                  style="
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    gap: 24px;
+                    display: flex;
+                  "
+                >
+                  <div
+                    class="CookiesSettings"
+                    style="
+                      color: #151515;
+                      font-size: 14px;
+                      font-family: Roboto;
+                      font-weight: 400;
+                      text-decoration: underline;
+                      line-height: 21px;
+                      word-wrap: break-word;
+                    "
+                  >
+                    Cookies Settings
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Registration-->
+    </div>
+
+    <script>
+      var time = 5000;
+      var tid = setTimeout(timer, time);
+
+      function timer() {
+        var $next,
+          $selected = $(".selected");
+        // get the selected item
+        // If next li is empty , get the first
+        $next = $selected.next("li").length ? $selected.next("li") : $first;
+
+        $selected.removeClass("selected").fadeOut("slow");
+        $next.addClass("selected").fadeIn("slow");
+        tid = setTimeout(timer, time); // repeat myself
+      }
+
+      function abortTimer() {
+        // to be called when you want to stop the timer
+        clearTimeout(tid);
+      }
+      var $first = $("li:first", "#slider"),
+        $last = $("li:last", "#slider");
+    </script>
+  </body>
+</html>
