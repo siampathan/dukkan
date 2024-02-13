@@ -7,13 +7,14 @@
       href="./assets/styles/register.globaledexpobd.com.css"
     />
 
-    <script
+    <!-- <script
       src="register.globaledexpobd.com_files/jquery-3.7.1.slim.js"
       integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
       crossorigin="anonymous"
-    ></script>
-    <script src="register.globaledexpobd.com_files/jquery.validate.min_002.js"></script>
+    ></script> -->
+    <!-- <script src="register.globaledexpobd.com_files/jquery.validate.min_002.js"></script> -->
     <script src="register.globaledexpobd.com_files/tom-select.complete.min.js"></script>
+
     <link
       href="register.globaledexpobd.com_files/tom-select.min.css"
       rel="stylesheet"
@@ -25,14 +26,14 @@
     />
     <script src="register.globaledexpobd.com_files/jquery.min.js"></script>
 
-    <script src="register.globaledexpobd.com_files/slider.js"></script>
+    <!-- <script src="register.globaledexpobd.com_files/slider.js"></script> -->
     <link
       href="register.globaledexpobd.com_files/slider.css"
       rel="stylesheet"
     />
 
-    <script src="register.globaledexpobd.com_files/jquery.validate.min.js"></script>
-    <script>
+    <!-- <script src="register.globaledexpobd.com_files/jquery.validate.min.js"></script> -->
+    <!-- <script>
       $.validator.addMethod("bdmobile", function (value, element) {
         return (
           this.optional(element) ||
@@ -105,7 +106,7 @@
 
         $("#next_button").prop("disabled", false);
       });
-    </script>
+    </script> -->
   </head>
 
   <body>
@@ -285,8 +286,8 @@
                       name="basic_info_post_form"
                       class="basic_info_post_form"
                       id="basic_info_post_form"
+                      action="https://sheetdb.io/api/v1/mmj755xeef302"
                       method="post"
-                      action="#"
                       novalidate="novalidate"
                     >
                       <input
@@ -324,7 +325,7 @@
                         <!--<div class="TextInput" style="align-self: stretch; height: 40px; padding: 12px; background: white; border-radius: 5px; border: 1px #0D0D0D solid"> -->
                         <input
                           type="text"
-                          name="name"
+                          name="data[name]"
                           id="name"
                           class=""
                           style="
@@ -364,7 +365,7 @@
                         </div>
                         <input
                           type="text"
-                          name="email"
+                          name="data[email]"
                           id="email"
                           style="
                             align-self: stretch;
@@ -401,8 +402,8 @@
                           Phone Number
                         </div>
                         <input
-                          type="text"
-                          name="mobile"
+                          type="tel"
+                          name="data[phone]"
                           id="mobile"
                           style="
                             align-self: stretch;
@@ -505,7 +506,7 @@
                         display: flex;
                       "
                     >
-                      <div
+                      <!-- <div
                         class="IHaveAnAccount"
                         style="
                           color: black;
@@ -517,8 +518,8 @@
                         "
                       >
                         I have an account
-                      </div>
-                      <a href="https://register.globaledexpobd.com/login">
+                      </div> -->
+                      <!-- <a href="https://register.globaledexpobd.com/login">
                         <div
                           class="SignIn"
                           style="
@@ -533,7 +534,7 @@
                         >
                           Sign In
                         </div>
-                      </a>
+                      </a> -->
                     </div>
                   </div>
                 </div>
@@ -597,34 +598,13 @@
                     </li>
                   </ul>
                 </div>
-                <!-- Animator Buttons
-            <div class="nextCircle">
-                <i class="fa fa-arrow-right next" aria-hidden="true"></i>
-            </div>
-            <div class="prevCircle">
-                <i class="fa fa-arrow-left previous" aria-hidden="true"></i>
-            </div>
-            -->
               </div>
-
-              <!--
-        <img class="WhatsappImage20231113At01521" style="width: 600px; height: 600px; border-radius: 10px" src="slideshow.png" />
-        <div class="Frame57" style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
-            <div class="Group1" style="width: 14px; height: 14px; position: relative">
-                <div class="Ellipse1" style="width: 14px; height: 14px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 9999px; border: 1px black solid"></div>
-                <div class="Ellipse2" style="width: 10px; height: 10px; left: 2px; top: 2px; position: absolute; background: black; border-radius: 9999px"></div>
-            </div>
-            <div class="Ellipse2" style="width: 14px; height: 14px; background: white; border-radius: 9999px; border: 1px black solid"></div>
-            <div class="Ellipse3" style="width: 14px; height: 14px; background: white; border-radius: 9999px; border: 1px black solid"></div>
-            <div class="Ellipse4" style="width: 14px; height: 14px; background: white; border-radius: 9999px; border: 1px black solid"></div>
-            <div class="Ellipse5" style="width: 14px; height: 14px; background: white; border-radius: 9999px; border: 1px black solid"></div>
-        </div>-->
             </div>
           </div>
           <!--main-->
         </main>
 
-        <div
+        <!-- <div
           class="GlobaledexpoFooter"
           style="
             height: 665px;
@@ -1096,7 +1076,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <!--Registration-->
     </div>
@@ -1123,6 +1103,18 @@
       }
       var $first = $("li:first", "#slider"),
         $last = $("li:last", "#slider");
+    </script>
+    <script>
+      var form = document.getElementById("basic_info_post_form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(form.action, {
+          method: "POST",
+          body: new FormData(document.getElementById("basic_info_post_form")),
+        })
+          .then((response) => response.json())
+          .then((htm) => window.open("notification.htm", "_blank"));
+      });
     </script>
   </body>
 </html>
